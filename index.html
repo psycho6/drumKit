@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Drum Kit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="heading"><h1>Drum Kit</h1></div>
+        <img id="bg" src="/Images/nathan-fertig-IW5Bm4rB9OA-unsplash.jpg">
+        <script src="index.js"></script>
+        <div id="keys">
+            <div data-key="65" class="key">
+                <kbd>A</kbd>
+                <span class="sound">Clap</span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sound">Hihat</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sound">Kick</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound">Openhat</span>
+            </div>
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sound">Boom</span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sound">Ride</span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sound">Snare</span>
+            </div>
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sound">Tom</span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sound">Tink</span>
+            </div>
+        </div>
+        
+        <audio data-key="65" src="/Audio/clap.wav"></audio>
+        <audio data-key="83" src="/Audio/hihat.wav"></audio>
+        <audio data-key="68" src="/Audio/kick.wav"></audio>
+        <audio data-key="70" src="/Audio/openhat.wav"></audio>
+        <audio data-key="71" src="/Audio/boom.wav"></audio>
+        <audio data-key="72" src="/Audio/ride.wav"></audio>
+        <audio data-key="74" src="/Audio/snare.wav"></audio>
+        <audio data-key="75" src="/Audio/tom.wav"></audio>
+        <audio data-key="76" src="/Audio/tink.wav"></audio>
+    </body>
+</html>
